@@ -17,4 +17,42 @@ audio:not([controls]) { display: none; }
 html { font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /* Site Styles */
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 22px;
+  color: #222;
+}
+div#page {
+  margin: 5%;
+}
+header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 22px;
+}
+header p.tagline {
+  background-color: #EEE;
+  padding: 10px;
+  margin-bottom: 33px;
+  border: 1px solid #DDD;
+}
+footer {
+  margin-top: 66px;
+  font-size: 12px;
+}
 
+div#resources h2 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 11px;
+}
+p.note {
+  color: #999;
+  margin-bottom: 11px;
+}
+div#resources ul li {
+  list-style-type: disc;
+  margin-left: 5%;
+  margin-bottom: 11px;
+}
